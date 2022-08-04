@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Ibarra+Real+Nova:wght@400;500&display=swap');
+
+
+*{
+    font-family: 'Dosis', sans-serif;
+font-family: 'Ibarra Real Nova', serif;
+box-sizing: border-box;
+}
+
+body{
+    background:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+.counter-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px 30px;
+
+}
+
+.counter>data-target{
+    background:black;
+    
+}
+.counter{
+    font-size: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    color:rgb(228, 111, 8);
+
+}
+span {
+    display: flex;
+    color: sandybrown;
+}
+
+h1{
+    font-size:75px;
+    color:#3b5991;
+
+}
+
+
+@media(max-width:768px){
+    body{
+        flex-direction: column;
+    }
+}
